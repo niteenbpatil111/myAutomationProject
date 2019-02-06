@@ -42,7 +42,7 @@
 					<version>2.22.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>TestNG.xml</suiteXmlFile>
+							<suiteXmlFile>testNG.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
