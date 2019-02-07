@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 
 public class AutomationTest {
@@ -16,8 +17,8 @@ public class AutomationTest {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		//ChromeOptions chromeOptions = new ChromeOptions();
-		//chromeOptions.setBinary("C:\\Users\\Nitin_Patil\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\\chrome.exe");
+		// ChromeOptions chromeOptions = new ChromeOptions();
+		// chromeOptions.setBinary("C:\\Users\\Nitin_Patil\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\\chrome.exe");
 		System.setProperty("webdriver.chrome.driver", "browsers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
