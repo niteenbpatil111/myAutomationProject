@@ -19,6 +19,7 @@ public class AutomationTest {
 	public void beforeMethod() {
 		// ChromeOptions chromeOptions = new ChromeOptions();
 		// chromeOptions.setBinary("C:\\Users\\Nitin_Patil\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\\chrome.exe");
+		System.out.println(System.getProperty("user.dir"));
 		System.setProperty("webdriver.chrome.driver", "browsers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
