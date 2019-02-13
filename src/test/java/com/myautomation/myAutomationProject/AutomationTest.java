@@ -24,6 +24,12 @@ public class AutomationTest {
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		System.out.println("beforeMethod executed");
+		System.out.println("beforeMethod finished");
+		System.out.println("Text 1");
+		System.out.println("Text 2");
+
+
 	}
 
 	@AfterMethod
